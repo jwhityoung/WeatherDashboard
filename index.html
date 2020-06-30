@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-center" style="background-color: #4a5759;">
+        <span class="navbar-text mx-auto" style="color: white;">
+            Weather Dashboard
+        </span>
+    </nav>
+    <container class="container1">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card  border-info mb-3 searchacity">
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search a city"
+                                aria-label="Recipient's username" aria-describedby="button-addon2" id="city-input">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit" id="search-button"><svg
+                                        width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="citylist">
+                            
+                            </div>
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-md-8">
+             
+                <div class="card border-primary mb-3 cityresults">
+                    <div class="card-body" id="city-results">
+                        <h2 id="city-namedate"></h2>
+                        <div class="temp"></div>
+                        <div class="humidity"></div>
+                        <div class="windspeed"></div>
+                        <div class="uv"></div>
+                        <div class="icon"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <div>
+
+                        </div>
+                    </div>
+                    <div class="card border-danger mb-3 w-25 col-md-2">
+                        <div class="card-body day1 text-center">
+                            <div id="date1"></div>
+                            <br>
+                            <div id="temp1"></div>
+                            <div id="humidity1"></div>
+                            <br>
+                            <div id="emoji1"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="card border-danger mb-3 w-25 col-md-2">
+                        <div class="card-body day2 text-center">
+                            <div id="date2"></div>
+                            <br>
+                            <div id="temp2"></div>
+                            <div id="humidity2"></div>
+                            <br>
+                            <div id="emoji2"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="card border-danger mb-3 w-25 col-md-2">
+                        <div class="card-body day3 text-center">
+                            <div id="date3"></div>
+                            <br>
+                            <div id="temp3"></div>
+                            <div id="humidity3"></div>
+                            <br>
+                            <div id="emoji3"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="card border-danger mb-3 w-25 col-md-2">
+                        <div class="card-body day4 text-center">
+                            <div id="date4"></div>
+                            <br>
+                            <div id="temp4"></div>
+                            <div id="humidity4"></div>
+                            <br>
+                            <div id="emoji4"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="card border-danger mb-3 w-25 col-md-2">
+                        <div class="card-body day5 text-center">
+                            <div id="date5"></div>
+                            <br>
+                            <div id="temp5"></div>
+                            <div id="humidity5"></div>
+                            <br>
+                            <div id="emoji5"></div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="five-day-forecast">
+
+        </div>
+    </container>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

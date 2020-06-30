@@ -1,0 +1,70 @@
+body {
+    /* background-color: #b0c4b1 */
+    
+}
+
+.navbar-text {
+    font-size: 40px;
+    color: white;
+}
+
+.container1 {
+    width: 75%;
+    margin-left: 10px;
+}
+
+.searchacity {
+    margin-left: 20px;
+    height: 500px;
+    float: auto;
+    position: absolute;
+    margin-bottom: 20px;
+    color: white;
+    /* background-color: #dedbd2;
+    border-color:  #b0c4b1;
+     */
+    
+   
+}
+
+
+
+.five-day {
+    position: fixed;
+    float: right; 
+    right: 0;
+    height: 250px;
+    width: 70%;
+    margin-right: 110px;
+}
+
+.cityresults {
+    height: 225px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    float: auto;
+    
+
+}
+
+.citylist {
+    color:white;
+   
+}
+
+.w-25 {
+    height: 225px;
+    font-size: 12px;
+    text-align: center; 
+    color: white;
+    margin-right: 10px;
+    float: auto;
+    
+    
+}
+
+
+
+
+
